@@ -7,7 +7,9 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-robots": "^0.2.1",
+    "klaro-gridsome": "^1.0.3"
   },
   "devDependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",

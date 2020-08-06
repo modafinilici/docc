@@ -5,12 +5,12 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Docc',
+  siteName: 'Modafinilici',
   icon: {
     favicon: './src/assets/favicon.png',
     touchicon: './src/assets/favicon.png'
   },
-  siteUrl: (process.env.SITE_URL ? process.env.SITE_URL : 'https://example.com'),
+  siteUrl: (process.env.SITE_URL ? process.env.SITE_URL : 'localhost:8080'),
   settings: {
     web: process.env.URL_WEB || false,
     twitter: process.env.URL_TWITTER || false,
@@ -30,7 +30,7 @@ module.exports = {
               '/introduction2/',
               '/installation2/',
               '/writing-content2/',
-              '/deploying2/',
+              '/modafinil-romania/',
             ]
           },
           {
@@ -76,15 +76,67 @@ module.exports = {
     {
       use: '@gridsome/plugin-google-analytics',
       options: {
-        id: (process.env.GA_ID ? process.env.GA_ID : 'XX-999999999-9')
+        id: (process.env.GA_ID ? process.env.GA_ID : 'UA-144741960-1')
       }
     },
 
     {
       use: '@gridsome/plugin-sitemap',
-      options: {  
+      options: {
+        cacheTime: 600000,
+		config: {
+          "/*": {
+            changefreq: "weekly",
+            priority: 0.5,
+          },
+        },
+      },
+    },
+	{
+      use: 'gridsome-plugin-robots',
+      options: {
+        host: '',
+        sitemap: 'localhost:8080/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
       }
-    }
+    },
+	{
+      use: 'klaro-gridsome',
+      options: {
+        privacyPolicy: '/confidentialitate/',
+        cookieName: 'consent',
+        translations: {
+          en: {
+            consentModal: {
+              description: 'Aici puteți vedea și personaliza informațiile pe care le colectăm despre dvs.',
+            },
+            googleAnalytics: {
+              description: 'Analizează site-urie alimentate de Google Analytics, permițându-ne să vedem cum utilizatorii vizitează site-ul nostru web.'
+            },
+            purposes: {
+              analytics: 'Analytics'
+            },
+          },
+        },
+        apps: [
+          {
+            name: 'googleAnalytics',
+            default: true,
+            title: 'Google Analytics',
+            purposes: ['analytics'],
+            cookies: [
+              '_ga',
+              '_gcl_au',
+              '_gid',
+              '_gat'
+            ],
+            required: false,
+            optOut: true,
+            onlyOnce: false
+          }
+        ]
+      }
+    },
 
   ],
   templates: {
