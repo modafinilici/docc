@@ -11,7 +11,7 @@ module.exports = {
     favicon: './src/assets/favicon.png',
     touchicon: './src/assets/favicon.png'
   },
-  siteUrl: (process.env.SITE_URL ? process.env.SITE_URL : 'modafinilici.com'),
+  siteUrl: (process.env.SITE_URL ? process.env.SITE_URL : 'localhost:8080'),
   settings: {
     web: process.env.URL_WEB || false,
     twitter: process.env.URL_TWITTER || false,
@@ -95,7 +95,7 @@ module.exports = {
       use: 'gridsome-plugin-robots',
       options: {
         host: '',
-        sitemap: 'modafinilici.com/sitemap.xml',
+        sitemap: 'localhost:8080/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     },
