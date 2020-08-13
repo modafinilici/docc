@@ -104,7 +104,7 @@ module.exports = {
         privacyPolicy: '/confidentialitate/',
         cookieName: 'consent',
         translations: {
-          en: {
+          ro: {
             consentModal: {
               description: 'Aici puteți vedea și personaliza informațiile pe care le colectăm despre dvs.',
             },
