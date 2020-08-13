@@ -144,7 +144,8 @@ export default {
       ]
     }
   }
-}
+};
+
 var myRadios = document.getElementsByName('faq');
       var setCheck;
       var x = 0;
