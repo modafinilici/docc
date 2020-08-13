@@ -109,7 +109,7 @@ module.exports = {
               description: 'Aici puteți vedea și personaliza informațiile pe care le colectăm despre dvs.',
             },
             googleAnalytics: {
-              description: 'Analizează site-urie alimentate de Google Analytics, permițându-ne să vedem cum utilizatorii vizitează site-ul nostru web.'
+              description: 'Analizează site-urile alimentate de Google Analytics, permițându-ne să vedem cum utilizatorii vizitează site-ul nostru web.'
             },
             purposes: {
               analytics: 'Analytics'
