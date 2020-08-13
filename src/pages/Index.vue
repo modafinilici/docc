@@ -18,14 +18,31 @@
           <h3 class="font-bold tracking-wide text-ui-primary">
             Intrebari frecvente
           </h3>
-      
-        <div class="py-4">
-          <code class="block px-4 py-1 select-all bg-ui-border text-ui-typo">
-
-           </code>  
-            
-         
-        </div>
+          <div class="w-full md:w-3/5 mx-auto p-8">
+                  <div class="shadow-md">
+                      <div class="tab w-full overflow-hidden">
+                        <input class="absolute opacity-0" id="tab-single-one" type="radio" name="faq">
+                        <label class="block p-4 leading-normal cursor-pointer" for="tab-single-one">Label One</label>
+                        <div class="tab-content overflow-hidden border-l-2 border-indigo-500 leading-normal">
+                            <p class="p-5">Lorem</p>
+                        </div>
+                      </div>
+                      <div class="tab w-full overflow-hidden border-t">
+                        <input class="absolute opacity-0" id="tab-single-two" type="radio" name="faq">
+                        <label class="block p-4 leading-normal cursor-pointer" for="tab-single-two">Label Two</label>
+                        <div class="tab-content overflow-hidden border-l-2 border-indigo-500 leading-normal">
+                            <p class="p-5">Lorem ipsum.</p>
+                        </div>
+                      </div>
+                      <div class="tab w-full overflow-hidden border-t">
+                        <input class="absolute opacity-0" id="tab-single-three" type="radio" name="faq">
+                        <label class="block p-4 leading-normal cursor-pointer" for="tab-single-three">Label Three</label>
+                        <div class="tab-content overflow-hidden border-l-2 border-indigo-500 leading-normal">
+                            <p class="p-5">Lorem ipsum dolor.</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
 
         <div class="flex justify-center mb-4">
           <g-link
@@ -128,10 +145,83 @@ export default {
     }
   }
 }
+var myRadios = document.getElementsByName('faq');
+      var setCheck;
+      var x = 0;
+      for(x = 0; x < myRadios.length; x++){
+          myRadios[x].onclick = function(){
+              if(setCheck != this){
+                   setCheck = this;
+              }else{
+                  this.checked = false;
+                  setCheck = null;
+          }
+          };
+      }
 </script>
 
 <style>
 .home-links a {
   margin-right: 1rem;
 }
+
+ /* Tab content - closed */
+         .tab-content {
+         max-height: 0;
+         -webkit-transition: max-height .35s;
+         -o-transition: max-height .35s;
+         transition: max-height .35s;
+         }
+         /* :checked - resize to full height */
+         .tab input:checked ~ .tab-content {
+         max-height: 100vh;
+         }
+         /* Label formatting when open */
+         .tab input:checked + label{
+         /*@apply text-xl p-5 border-l-2 border-indigo-500 bg-gray-100 text-indigo*/
+         font-size: 1.25rem; /*.text-xl*/
+         padding: 1rem; /*.p-5*/
+         border-left-width: 2px; /*.border-l-2*/
+         border-color: #6574cd; /*.border-indigo*/
+
+         }
+         /* Icon */
+         .tab label::after {
+         float:right;
+         right: 0;
+         top: 0;
+         display: block;
+         width: 1.5em;
+         height: 1.5em;
+         line-height: 1.5;
+         font-size: 1.25rem;
+         text-align: center;
+         -webkit-transition: all .35s;
+         -o-transition: all .35s;
+         transition: all .35s;
+         }
+         /* Icon formatting - closed */
+         .tab input[type=checkbox] + label::after {
+         content: "+";
+         font-weight:bold; /*.font-bold*/
+         border-width: 1px; /*.border*/
+         border-radius: 9999px; /*.rounded-full */
+         border-color: #b8c2cc; /*.border-grey*/
+         }
+         .tab input[type=radio] + label::after {
+         content: "\25BE";
+         font-weight:bold; /*.font-bold*/
+         border-width: 1px; /*.border*/
+         border-radius: 9999px; /*.rounded-full */
+         border-color: #b8c2cc; /*.border-grey*/
+         }
+         /* Icon formatting - open */
+         .tab input[type=checkbox]:checked + label::after {
+         transform: rotate(315deg);
+
+         }
+         .tab input[type=radio]:checked + label::after {
+         transform: rotateX(180deg);
+
+         }
 </style>

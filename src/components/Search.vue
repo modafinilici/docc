@@ -16,7 +16,7 @@
         :value="query"
         class="block w-full py-2 pl-10 pr-4 border-2 rounded-lg bg-ui-sidebar border-ui-sidebar focus:bg-ui-background"
         :class="{'rounded-b-none': showResult,}"
-        placeholder="Cauta mai multe informatii"
+        placeholder="Caută mai multe informații"
         @focus="focused = true"
         @blur="focused = false"
         @input="focusIndex = -1; query = $event.target.value"
