@@ -17,7 +17,7 @@ module.exports = {
     github: process.env.URL_GITHUB || false,
     nav: {
       links: [
-        { path: '/introduction2/', title: 'Introduction' }
+        { path: '/blog/', title: 'Blog' }
       ]
     },
     sidebar: [
@@ -25,16 +25,14 @@ module.exports = {
         name: 'docs',
         sections: [
           {
-            title: 'Getting Started',
+            title: 'Introducere',
             items: [
-              '/introduction2/',
-              '/installation2/',
-              '/writing-content2/',
+              '/ce-este-modafinilul/',
               '/modafinil-romania/',
             ]
           },
           {
-            title: 'Configuration',
+            title: 'Siguranta',
             items: [
               '/settings2/',
               '/sidebar2/',

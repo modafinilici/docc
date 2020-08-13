@@ -26,51 +26,27 @@ Modafinilul este utilizat pe scară largă ca rețetă pentru a medica narcoleps
 * tulburari afective sezoniere;
 * tulburare de hiperactivitate cu deficit de atenție (ADHD) [1].
 
-Acest medicament este un compus eugeroic care combate eficient sentimentele de somnolență și ajută persoanele lipsite de somn să rămână treji.
-
-Dezvoltat în anii '70, modafinilul este aprobat de FDA pentru a trata narcolepsia. Ca un medicament puternic și tolerabil cu performanțe impresionante, devine din ce în ce mai popular la nivel mondial ca o pastilă OTC folosită în diverse scopuri.
-
-Cunoscută ca o substanță care crește productivitatea și conferă o funcție cognitivă uimitoare, este preluată de profesioniști, CEO-uri, militari și astronauți, printre altele, pentru performanțe ridicate și pentru obținerea unui avantaj suplimentar competitiv [2].
-
-Deoarece crește nivelul de dopamină și gestionează ciclul somn-veghe, modafinil este extrem de eficient în:
-* oferind indivizilor o memorie de lucru crescută;
-* realizarea unei motivații mai mari pentru a duce la îndeplinire sarcina;
-* atenuarea oboselii;
-* îmbunătățirea concentrării și concentrării;
-* obținerea conștientizării, vigilenței și starea de veghe sporită;
-* obținerea unei îmbunătățiri generale a stării de bine printre alte efecte.
-Modafinil este cel mai popular medicament inteligent sigur din lume, din motive întemeiate. 
-
-Funcționează foarte bine și de departe face mai ușor să fie productiv prin stimularea minții.
-
-Există șanse mai mici de abuz. 
-* Conform cercetărilor, modafinil poate fi un tratament potențial pentru dependența de cocaină [3]. 
-* În timp ce ambele medicamente afectează părți similare ale creierului, riscul de abuz de modafinil este mult mai mic.
+Acest medicament este un compus eugeroic care combate eficient sentimentele de somnolență și ajută persoanele lipsite de somn să rămână treze.
 
 ## Este modafinilul legal în România?
-De fapt, modafinilul este o substanță controlată în Statele Unite și în majoritatea țărilor la nivel mondial, inclusiv în Uniunea Europeană (UE). 
+Da, doar cu prescriptie. Este vandut sub numele de "Aspendos".
 
-România este o țară a UE și este supusă pe deplin Agenției Europene pentru Medicină (EMA).
-În ceea ce privește dacă acest medicament puternic este legal în această țară, răspunsul scurt este da și nu. 
+Modafinilul este o substanță controlată n majoritatea țărilor la nivel mondial, inclusiv în Uniunea Europeană. 
 
-EMA restricționează utilizarea modafinilului. Este legal să utilizați modafinil pentru a trata somnolenta asociată cu narcolepsie. Deși rapoartele prezintă utilizarea acestui medicament în mod recreativ pentru „îmbunătățirea performanței”, acesta nu este încă aprobat în astfel de scopuri.
-Modafinil este un medic de promovare a trezimii, licențiat în 21 de țări UE. 
+România este supusă pe deplin Agenției Europene pentru Medicină (EMA).
 
-Există o abundență de medicamente generice și generice de modafinil, inclusiv Modasomil, Provigil, Modiodal și Vigil, printre altele.
+EMA restricționează utilizarea modafinilului. Este legala utilizarea modafinilului pentru a trata somnolenta asociată cu narcolepsie. Deși rapoartele prezintă utilizarea acestui medicament în mod recreativ pentru „îmbunătățirea performanței”, acesta nu este încă aprobat în astfel de scopuri.
 
 Din cauza problemelor de risc sau de siguranță asociate cu modafinil pentru tratamentul hipersomniei idiopatice, tulburării cronice a somnului la locul de muncă, a somnolenței excesive asociate cu apneea obstructivă a somnului, acest medicament nu poate fi utilizat pentru a medica aceste afecțiuni conform raportului EMA [4].
 
 ## Aveți nevoie de o rețetă pentru medicamente Modafinil?
-Răspunsul la această întrebare este din nou da și nu.
-Conform raportului EU EMA, modafinil este recomandat doar pentru tratamentul cu narcolepsie și poate fi dificil să obțineți o rețetă de la un medic pentru a medica alte afecțiuni legate de somn sau în scop recreativ.
+Da. Conform raportului EU EMA, modafinil este recomandat doar pentru tratamentul cu narcolepsie și poate fi dificil să obțineți o rețetă de la un medic pentru a medica alte afecțiuni legate de somn sau în scop recreativ.
 
 Un medic poate solicita verificarea stării de sănătate pentru prezența narcolepsiei pentru a prescrie modafinil.
 
-Puteți obține încă modafinil fără rețetă, dar puteți întâmpina unele dificultăți. 
+Totusi, acesta se poate obtine si fără rețetă, dar exista o posibilitate de a avea coletul confiscat la vama.
 
 Farmaciile locale pot fi scumpe și vizitarea farmaciilor din periferie pentru a obține aceste tablete poate fi dificilă din cauza călătoriilor pe distanțe lungi. 
-
-Cel mai bun mod de a realiza acest lucru este să îl comandați online de la un furnizor legitim.
 
 În mod alternativ, este destul de sigur să îl comandați online. Magazinele online de acest fel livrează versiuni generice de înaltă calitate ale modafinilului sau armodafinilului în România. Acesta este un mod extraordinar de ușor de a-l obține de la un furnizor de încredere. Citiți mai jos doar pentru furnizorul potrivit care vă îndeplinește comenzile de modafinil.
 
@@ -128,3 +104,11 @@ Consultați-vă cu un specialist medical pentru a vă orienta cu privire la modu
 4. Agenția Europeană pentru Medicamente recomandă restricționarea utilizării modafinilului. Publicat: 22 iulie 2010. Ema.europa.eu.
 5. Înșelătorii de cumpărături online. Preluat: 13 ianuarie 2020. Scamwatch.gov.au.
 6. Recenzii HighStreetPharma. Preluat: 12 ianuarie 2020. Trustpilot.com.
+
+## Intrebari frecvente
+<details open>
+<summary>Ce este modafinilul?</summary>
+
+Modafinilul
+</details>
+
