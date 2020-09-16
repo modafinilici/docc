@@ -11,3 +11,6 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "no-referrer"
     Feature-Policy = "microphone 'none'; geolocation 'none'"
+    Permissions-Policy:
+      geolocation=(self "https://modafinilici.com"),
+      camera=()
