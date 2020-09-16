@@ -22,16 +22,16 @@
                   <div class="shadow-md">
                       <div class="tab w-full overflow-hidden">
                         <input class="absolute opacity-0" id="tab-single-one" type="radio" name="faq">
-                        <label class="block p-4 leading-normal cursor-pointer" for="tab-single-one">Label One</label>
+                        <label class="block p-4 leading-normal cursor-pointer" for="tab-single-one">Este cumpararea modafinilul legala in Romania?</label>
                         <div class="tab-content overflow-hidden border-l-2 border-indigo-500 leading-normal">
-                            <p class="p-5">Lorem</p>
+                            <p class="p-5">Nu. Acesta se poate elibera doar cu prescriptie. Numele medicamentului eliberat de doctorii romani este Aspendos.</p>
                         </div>
                       </div>
                       <div class="tab w-full overflow-hidden border-t">
                         <input class="absolute opacity-0" id="tab-single-two" type="radio" name="faq">
-                        <label class="block p-4 leading-normal cursor-pointer" for="tab-single-two">Label Two</label>
+                        <label class="block p-4 leading-normal cursor-pointer" for="tab-single-two">Ce se intampla daca la vama se descopera ca am cumparat modafinil?</label>
                         <div class="tab-content overflow-hidden border-l-2 border-indigo-500 leading-normal">
-                            <p class="p-5">Lorem ipsum.</p>
+                            <p class="p-5">Nimic. Modafinilul este confiscat.</p>
                         </div>
                       </div>
                       <div class="tab w-full overflow-hidden border-t">
