@@ -10,4 +10,4 @@
     X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "no-referrer"
-    Permissions-Policy: geolocation=(self "https://modafinilici.com"), microphone=()
+    Permissions-Policy = geolocation=(self "https://modafinilici.com"), microphone=()
