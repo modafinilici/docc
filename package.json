@@ -7,23 +7,23 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.20",
+    "gridsome": "^0.7.22",
     "gridsome-plugin-robots": "^0.2.1",
     "klaro-gridsome": "^1.0.3"
   },
   "devDependencies": {
-    "@gridsome/plugin-google-analytics": "^0.1.1",
+    "@gridsome/plugin-google-analytics": "^0.1.2",
     "@gridsome/plugin-sitemap": "^0.4.0",
-    "@gridsome/remark-prismjs": "^0.4.0",
+    "@gridsome/remark-prismjs": "^0.5.0",
     "@gridsome/source-filesystem": "^0.6.2",
-    "@gridsome/transformer-remark": "^0.6.2",
-    "fuse.js": "^6.4.1",
+    "@gridsome/transformer-remark": "^0.6.3",
+    "fuse.js": "^6.4.3",
     "gridsome-plugin-purgecss": "^1.0.12",
     "gridsome-plugin-tailwindcss": "^3.0.1",
-    "node-sass": "^4.14.1",
-    "prism-themes": "^1.4.0",
-    "sass-loader": "^10.0.2",
-    "tailwindcss": "^1.8.10",
+    "node-sass": "^5.0.0",
+    "prism-themes": "^1.5.0",
+    "sass-loader": "^10.0.5",
+    "tailwindcss": "^1.9.6",
     "vue-feather-icons": "^5.1.0"
   }
 }
