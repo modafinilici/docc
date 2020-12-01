@@ -7,7 +7,7 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.22",
+    "gridsome": "^0.7.23",
     "gridsome-plugin-robots": "^0.2.1",
     "klaro-gridsome": "^1.0.3"
   },
