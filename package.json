@@ -7,9 +7,11 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
+    "autoprefixer": "^10.0.4",
     "gridsome": "^0.7.23",
     "gridsome-plugin-robots": "^0.2.1",
-    "klaro-gridsome": "^1.0.3"
+    "klaro-gridsome": "^1.0.3",
+    "postcss": "^8.1.10"
   },
   "devDependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.2",
