@@ -3,7 +3,7 @@ title: Modafinilul in Romania
 date: 2020-08-04
 timeToRead: 13
 slug: modafinil-romania
-description: 'Modafinilul este cunoscut ca o substanță care crește productivitatea și conferă o funcție cognitivă uimitoare.'
+description: 'Modafinilul este cunoscut ca o substanță care crește productivitatea și oferă o funcție cognitivă uimitoare.'
 sidebar: 'docs'
 prev: ''
 next: ''
