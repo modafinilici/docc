@@ -5,8 +5,9 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = default-src data: 'unsafe-inline' 'unsafe-eval' https://modafinilici.com/; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; script-src-elem; script-src-attr; style-src data: 'unsafe-inline' https:; style-src-elem; style-src-attr; img-src data: https: blob:; font-src data: https:; connect-src https: wss: blob:; media-src https: blob:; object-src https:; prefetch-src; child-src https: data: blob:; frame-src; worker-src; frame-ancestors; form-action https:; block-all-mixed-content; base-uri; manifest-src; plugin-types; report-uri; report-to	    Content-Security-Policy = "default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; script-src-elem; script-src-attr; style-src data: 'unsafe-inline' https:; style-src-elem; style-src-attr; img-src data: https: blob:; font-src data: https:; connect-src https: wss: blob:; media-src https: blob:; object-src https:; prefetch-src; child-src https: data: blob:; frame-src; worker-src; frame-ancestors; form-action https:; block-all-mixed-content; base-uri; manifest-src; plugin-types; report-uri; report-to"
-    X-Frame-Options = "DENY"	    X-Frame-Options = "DENY"
-    X-Content-Type-Options = "nosniff"	    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "no-referrer"	    Referrer-Policy = "no-referrer"
-    Permissions-Policy = geolocation=(self "https://modafinilici.com"), microphone=()
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    Content-Security-Policy = "default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src data: 'unsafe-inline' https:; img-src data: https: blob:; font-src data: https:; connect-src https: wss: blob:; media-src https: blob:; object-src https:; child-src https: data: blob:; form-action https:; block-all-mixed-content"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+    Feature-Policy = "microphone 'none'; geolocation 'none'"
