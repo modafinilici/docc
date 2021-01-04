@@ -28,7 +28,7 @@
         <span class="border-b border-dashed border-ui-primary text-ui-primary">Pe acest site sunt prezentate atat informatii obiective, cat si pareri personale.</span>
         
       </div>
-      <div>
+      <!-- <div>
       <section class="text-gray-700">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
@@ -114,7 +114,7 @@
           </div>
         </div>
       </section>
-    </div>
+    </div> -->
 
     </div>
   </Layout>
