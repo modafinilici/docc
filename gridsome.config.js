@@ -28,15 +28,15 @@ module.exports = {
           {
             title: 'Introducere',
             items: [
-              '/ce-este-modafinilul/',
+              '/modafinil-romania/',
               '/modafinil-romania/',
             ]
           },
           {
             title: 'Siguranta',
             items: [
-              '/settings2/',
-              '/sidebar2/',
+              '/modafinil-romania/',
+              '/modafinil-romania/',
             ]
           }
         ]
@@ -84,13 +84,6 @@ module.exports = {
           './src/**/*.md'
         ],
         defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || [],
-      }
-    },
-
-    {
-      use: '@gridsome/plugin-google-analytics',
-      options: {
-        id: (process.env.GA_ID ? process.env.GA_ID : 'UA-144741960-1')
       }
     },
 
